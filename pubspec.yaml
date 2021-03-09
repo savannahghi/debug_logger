@@ -5,17 +5,17 @@ author: dmwangi@savannahinformatics.com
 homepage: https://gitlab.slade360emr.com/optimalhealth/sil_dart_utils
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=2.8.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  logger: ^1.0.0-nullsafety.0
+  logger: ^0.9.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  mockito: ^5.0.0
+  mockito: ^4.1.1
 
 
 flutter:
