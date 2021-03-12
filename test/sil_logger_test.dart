@@ -12,8 +12,9 @@ void main() {
     bool warningLogged = false;
     bool errorLogged = false;
 
-    MockLogger mockLogger = MockLogger();
-    when(mockLogger.d(any)).thenReturn(debugLogged = true);
+    final MockLogger mockLogger = MockLogger();
+    
+    when(mockLogger.d(any)).thenReturn(debugLogged = true);   
     when(mockLogger.i(any)).thenReturn(infoLogged = true);
     when(mockLogger.w(any)).thenReturn(warningLogged = true);
     when(mockLogger.e(any)).thenReturn(errorLogged = true);
@@ -28,3 +29,4 @@ void main() {
     expect(errorLogged, true);
   });
 }
+//ignore_for_file: void_checks
