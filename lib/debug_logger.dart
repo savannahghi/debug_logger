@@ -2,17 +2,17 @@ library debug_logger;
 
 import 'package:logger/logger.dart';
 
-class SILLogger {
-  factory SILLogger() {
+class DebugLogger {
+  factory DebugLogger() {
     return _singleton;
   }
 
-  SILLogger._internal();
+  DebugLogger._internal();
   final Logger _logger = Logger();
-  static final SILLogger _singleton = SILLogger._internal();
+  static final DebugLogger _singleton = DebugLogger._internal();
 
-  static void debug(dynamic message) => SILLogger()._logger.d(message);
-  static void info(dynamic message) => SILLogger()._logger.i(message);
-  static void warning(dynamic message) => SILLogger()._logger.w(message);
-  static void error(dynamic message) => SILLogger()._logger.e(message);
+  static void debug(dynamic message) => DebugLogger()._logger.d(message);
+  static void info(dynamic message) => DebugLogger()._logger.i(message);
+  static void warning(dynamic message) => DebugLogger()._logger.w(message);
+  static void error(dynamic message) => DebugLogger()._logger.e(message);
 }

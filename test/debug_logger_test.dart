@@ -19,10 +19,10 @@ void main() {
     when(mockLogger.w(any)).thenReturn(warningLogged = true);
     when(mockLogger.e(any)).thenReturn(errorLogged = true);
 
-    SILLogger.debug('debug');
-    SILLogger.info('some message');
-    SILLogger.warning('some message');
-    SILLogger.error('some message');
+    DebugLogger.debug('debug');
+    DebugLogger.info('some message');
+    DebugLogger.warning('some message');
+    DebugLogger.error('some message');
     expect(debugLogged, true);
     expect(infoLogged, true);
     expect(warningLogged, true);
