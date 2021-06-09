@@ -1,8 +1,10 @@
 name: debug_logger
 description: Logging utility used for debugging
 version: 0.0.21
-author: abdi.adan@healthcloud.co.ke
 homepage: https://github.com/savannahghi/debug_logger
+repository: https://github.com/savannahghi/debug_logger
+issue_tracker: https://github.com/savannahghi/debug_logger/issues
+documentation: https://github.com/savannahghi/debug_logger/doc
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -11,7 +13,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  logger: ^1.0.0-nullsafety.0
+  logger: ^1.0.0
 
 dev_dependencies:
   flutter_test:
