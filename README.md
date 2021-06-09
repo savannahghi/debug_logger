@@ -5,5 +5,3 @@
 A shared library for `BeWell-Consumer` and `BeWell-Professional` that is responsible for displaying various logging options used for development and debugging
 
 Utility for dev logging
-token : exUZYY9NdAXZyHVJ_pcd
-username : sil_dart_utils
