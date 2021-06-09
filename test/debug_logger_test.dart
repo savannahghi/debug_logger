@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:logger/logger.dart';
 import 'package:mockito/mockito.dart';
-import 'package:sil_logger/sil_logger.dart';
+import 'package:debug_logger/debug_logger.dart';
 
 class MockLogger extends Mock implements Logger {}
 

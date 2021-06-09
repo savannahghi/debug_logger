@@ -1,11 +1,11 @@
-name: sil_logger
+name: debug_logger
 description: Logging utility used for debugging
 version: 0.0.21
-author: dmwangi@savannahinformatics.com
-homepage: https://github.com/savannahghi/sil_logger
+author: abdi.adan@healthcloud.co.ke
+homepage: https://github.com/savannahghi/debug_logger
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=2.0.0"
 
 dependencies:

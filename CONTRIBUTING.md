@@ -1,8 +1,8 @@
-# Contributing to `sil_logger`
+# Contributing to `debug_logger`
 
 First off, thanks for taking the time to contribute!
 
-The following is a set of guidelines for contributing to `sil_logger`, which is hosted in the [Savannah Global Health](https://github.com/savannahghi) Organization on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to `debug_logger`, which is hosted in the [Savannah Global Health](https://github.com/savannahghi) Organization on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 #### Table Of Contents
 
@@ -47,8 +47,8 @@ We have an official message board (Help/Support center) through which we can int
 
 ### SIL Software and Packages
 
-`sil_logger` is an open source project &mdash; it's one among many other shared libraries that make up the wider ecosystem of software made and open sourced by `Savannah Informatics Limited`.
-When you initially consider contributing to `sil_logger`, you might be unsure about which of those repositories implements the functionality you want to change or report a bug for. This section should help you with that.
+`debug_logger` is an open source project &mdash; it's one among many other shared libraries that make up the wider ecosystem of software made and open sourced by `Savannah Informatics Limited`.
+When you initially consider contributing to `debug_logger`, you might be unsure about which of those repositories implements the functionality you want to change or report a bug for. This section should help you with that.
 
 Here's a list of the big ones:
 
@@ -57,7 +57,7 @@ Here's a list of the big ones:
 - [dart_utils/sil_fcm](https://github.com/) - A shared library for `BeWell-Consumer` and `BeWell-Professional` that is responsible for exposing firebase messaging services.
 - [dart_utils/sil_feed](https://github.com/) - A shared library for `BeWell-Consumer` and `BeWell-Professional` that is responsible for rendering and refreshing user-feed and engagement data.
 - [dart_utils/sil_graphql_client](https://github.com/) - A shared library for `BeWell-Consumer` and `BeWell-Professional` that is responsible for exposing graphql_client and helper methods for use in the various apps
-- [dart_utils/sil_logger](https://github.com/) - A shared library for `BeWell-Consumer` and `BeWell-Professional` that is responsible for displaying various logging options used for development and debugging
+- [debug_logger](https://github.com/savannahghi/debug_logger) - A shared library that is responsible for displaying various logging options used for development and debugging
 - [dart_utils/sil_misc](https://github.com/) -A shared library for `BeWell-Consumer` and `BeWell-Professional` that is a wrapper for various shared helper methods and functions
 - [dart_utils/sil_themes](https://github.com/) -A shared library for `BeWell-Consumer` and `BeWell-Professional` that is responsible for defining and providing theme/style guidelines
 - [dart_utils/sil_ui_components](https://github.com/) - A shared library for `BeWell-Consumer` and `BeWell-Professional` that is responsible for rendering and exposing dumb widgets and ui components 
@@ -71,7 +71,7 @@ When we make a significant decision in how we maintain the project and what we c
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for `sil_logger`. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer:, and find related reports :mag_right:.
+This section guides you through submitting a bug report for `debug_logger`. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer:, and find related reports :mag_right:.
 
 Before creating bug reports, please check the project's list of open issues/bug reports as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/atom/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
 
@@ -150,7 +150,7 @@ Both issue lists are sorted by total number of comments. While not perfect, numb
 
 #### Local development
 
-`sil_logger` and all packages can be developed locally. For instructions on how to do this, (develop, test & deploy) see the project's readme file
+`debug_logger` and all packages can be developed locally. For instructions on how to do this, (develop, test & deploy) see the project's readme file
 
 ### Pull Requests
 

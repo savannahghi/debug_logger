@@ -1,4 +1,4 @@
-library sil_logger;
+library debug_logger;
 
 import 'package:logger/logger.dart';
 
