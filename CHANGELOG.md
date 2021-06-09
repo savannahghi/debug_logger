@@ -1,3 +1,5 @@
-## [0.0.1] - TODO: Add release date.
+### Pre - [0.0.2] 
 
-* TODO: Describe initial release.
+* Code testing, refactor and upgrading design system for sil_logger on both apps
+* Assorted bug fixes and enhancements
+* Migrated to nullsafety

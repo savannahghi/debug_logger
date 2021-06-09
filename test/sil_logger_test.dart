@@ -13,8 +13,8 @@ void main() {
     bool errorLogged = false;
 
     final MockLogger mockLogger = MockLogger();
-    
-    when(mockLogger.d(any)).thenReturn(debugLogged = true);   
+
+    when(mockLogger.d(any)).thenReturn(debugLogged = true);
     when(mockLogger.i(any)).thenReturn(infoLogged = true);
     when(mockLogger.w(any)).thenReturn(warningLogged = true);
     when(mockLogger.e(any)).thenReturn(errorLogged = true);
