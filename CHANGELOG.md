@@ -1,3 +1,8 @@
+## 0.0.22
+
+- Setup CI/CD
+- Improve project documentation
+
 ## 0.0.21
 
 - Refactor and rename project

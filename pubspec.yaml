@@ -1,10 +1,10 @@
 name: debug_logger
 description: Logging utility used for debugging
-version: 0.0.21
+version: 0.0.22
 homepage: https://github.com/savannahghi/debug_logger
 repository: https://github.com/savannahghi/debug_logger
 issue_tracker: https://github.com/savannahghi/debug_logger/issues
-documentation: https://github.com/savannahghi/debug_logger/doc
+documentation: https://github.com/savannahghi/debug_logger/blob/main/doc/readme.md
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
