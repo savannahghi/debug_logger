@@ -38,8 +38,6 @@ Import it like so:
 import 'package:debug_logger/debug_logger.dart';
 ```
 
-![debug_logger](https://user-images.githubusercontent.com/53440762/121340163-f702de80-c927-11eb-9ad8-f201939006a7.png)
-
 ## How to use debug_logger
 
 ### Debug
@@ -49,6 +47,7 @@ Output fields and values to the terminal this way:
 ```dart
       DebugLogger.debug(your_value);
 ```
+![debug](https://user-images.githubusercontent.com/53440762/121493788-d5b1f900-c9e0-11eb-929f-febc1652a50f.png)
 
 This will display a white debug output as shown on the screenshot above.
 
@@ -59,6 +58,8 @@ Output fields and values to the terminal this way:
 ```dart
       DebugLogger.info(your_value);
 ```
+![info](https://user-images.githubusercontent.com/53440762/121494009-05f99780-c9e1-11eb-954f-b314dae0cb43.png)
+
 
 This will display a blue debug output as shown on the screenshot above.
 
@@ -69,6 +70,8 @@ Output fields and values to the terminal this way:
 ```dart
       DebugLogger.info(your_value);
 ```
+![warning](https://user-images.githubusercontent.com/53440762/121494173-2c1f3780-c9e1-11eb-9399-733276dcbe86.png)
+
 
 This will display an amber debug output as shown on the screenshot above.
 
@@ -79,5 +82,7 @@ Output fields and values to the terminal this way:
 ```dart
       DebugLogger.info(your_value);
 ```
+
+![danger](https://user-images.githubusercontent.com/53440762/121494395-5ffa5d00-c9e1-11eb-94b6-e50ba7de9477.png)
 
 This will display a red (danger) debug output as shown on the screenshot above.
