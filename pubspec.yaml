@@ -1,6 +1,6 @@
 name: debug_logger
-description: Logging utility used for debugging
-version: 0.0.22
+description: A liteweight utility used for logging values to debug console.
+version: 0.0.23
 homepage: https://github.com/savannahghi/debug_logger
 repository: https://github.com/savannahghi/debug_logger
 issue_tracker: https://github.com/savannahghi/debug_logger/issues

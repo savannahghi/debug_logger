@@ -1,3 +1,6 @@
+## 0.0.23
+
+- doc: documentation fixes
 ## 0.0.22
 
 - Setup CI/CD
