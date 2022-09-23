@@ -1,6 +1,11 @@
+## 0.0.24
+
+- feat: setup automated deployment to pub.dev
+
 ## 0.0.23
 
 - doc: documentation fixes
+
 ## 0.0.22
 
 - Setup CI/CD
@@ -11,9 +16,8 @@
 - Refactor and rename project
 - Add doc, example, screenshots, and update project readme file
 
-## Pre - [0.0.2] 
+## Pre - [0.0.2]
 
 - Code testing, refactor and upgrading design system for debug_logger on both apps
 - Assorted bug fixes and enhancements
 - Migrated to null safety
-
