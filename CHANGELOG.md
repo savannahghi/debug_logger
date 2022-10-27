@@ -1,6 +1,11 @@
+## 0.0.24
+
+- feat: setup automated deploys
+
 ## 0.0.23
 
 - doc: documentation fixes
+
 ## 0.0.22
 
 - Setup CI/CD
